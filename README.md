@@ -9,7 +9,7 @@ So, you need to write some commands first.
 
 >**The Version of node is _16.16.0_**
 
-## Connands is:
+## Commands is:
 ```
 npm i --save
 ```
