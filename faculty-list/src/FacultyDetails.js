@@ -151,7 +151,12 @@ const FacultyDetails = () => {
         // }
     ];
     var temp = Faculties.map(fObj => {
-        return <Card image={fObj.FacultyImage} name={fObj.FacultyName} role={fObj.FacultyDesignation} edu={fObj.FacultyEducationQualification} exp={fObj.FacultyExperience} sin={fObj.FacultyWorkingSince} />
+        return <Card image={fObj.FacultyImage} 
+                     name={fObj.FacultyName} 
+                     role={fObj.FacultyDesignation} 
+                     edu={fObj.FacultyEducationQualification} 
+                     exp={fObj.FacultyExperience} 
+                     sin={fObj.FacultyWorkingSince} />
     })
     return (
         <div className="row cardCon">{temp}</div>
